@@ -31,3 +31,5 @@ if Salary2 > Salary1 :
 if Salary1 == Salary2 :
     print("Option 1 and Option 2 pays the same")
 
+#lol
+
