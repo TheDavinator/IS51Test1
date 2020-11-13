@@ -33,6 +33,8 @@ Salary2 EQAULS Compound_A_Day
 
 IF Salary1 is GREAT THAN Salary2
     Print(“Option 1 is better”)
-ELSE:
+IF Salary2 is GREAT THAN Salary1
     Print(“Option 2 is better”)
+ELSE
+    Print(“Option 1 and Option 2 pays the same”)
 """
