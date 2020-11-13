@@ -18,15 +18,16 @@ def Compound_A_Day(Days) :
         if Days == 0:
             return Bank_Account
 
-def Main () :
-    Days = 10
-    Salary1 = Compound_A_Day(Days) 
-    Salary2 = Hundred_A_Day(Days)
-    if Salary1 > Salary2 :
-        print ("Option 1 is better")
-        if Salary2 > Salary1 :
-            print("Option 2 is better")
-            if Salary1 == Salary2 :
-                 print("Option 1 and Option 2 pays the same")
 
-Main()
+
+Days = 10
+Salary1 = Compound_A_Day(Days) 
+Salary2 = Hundred_A_Day(Days)
+
+if Salary1 > Salary2 :
+    print("Option 1 is better")
+if Salary2 > Salary1 :
+    print("Option 2 is better")
+if Salary1 == Salary2 :
+    print("Option 1 and Option 2 pays the same")
+
